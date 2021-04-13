@@ -1,0 +1,35 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      
+
+      {
+        "name": "Local workbench",
+        "type": "edge",
+        "request": "launch",
+        "url": "https://localhost:4321/temp/workbench.html",
+        "webRoot": "${workspaceRoot}",
+        "sourceMaps": true,
+        "sourceMapPathOverrides": {
+          "webpack:///.././src/*": "${webRoot}/src/*",
+          "webpack:///../../../src/*": "${webRoot}/src/*",
+          "webpack:///../../../../src/*": "${webRoot}/src/*",
+          "webpack:///../../../../../src/*": "${webRoot}/src/*"
+        }
+      },
+      {
+        "name": "Hosted workbench",
+        "type": "edge",
+        "request": "launch",
+        "url": "https://trisdev.sharepoint.com/sites/uobhomepage/_layouts/15/workbench.aspx",
+        "webRoot": "${workspaceRoot}",
+        "sourceMaps": true,
+        "sourceMapPathOverrides": {
+          "webpack:///.././src/*": "${webRoot}/src/*",
+          "webpack:///../../../src/*": "${webRoot}/src/*",
+          "webpack:///../../../../src/*": "${webRoot}/src/*",
+          "webpack:///../../../../../src/*": "${webRoot}/src/*"
+        }
+      }
+    ]
+  }
