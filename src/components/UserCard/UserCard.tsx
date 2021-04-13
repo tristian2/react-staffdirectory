@@ -19,15 +19,6 @@ import { IUserExtended } from "../../entites/IUserExtended";
 import { IAppContext } from "../../common/IAppContext";
 import { IUserCardProps } from "./IUserCardProps";
 
-/* no failed experiment export default function escapeJobTitle(jobTitle,userId) {
-  //secondaryText={this.escapeJobTitle(userData.jobTitle,userData.id)}  ??
-  //{`&lt;a href=https://gbr.delve.office.com/?u=${userData.id}&v=work&lt;${userData.jobTitle}&lt;/a&gt;`}
-  //const htmlString = "<a href=https://gbr.delve.office.com/?u="+ userId +"&v=work>" +jobTitle + "</a>";
-  const htmlString = `&lt;a href=https://gbr.delve.office.com/?u=` + userId + `&v=work&lt;` + jobTitle + `&lt;/a&gt;`;
-  return <div dangerouslySetInnerHTML={{ __html: htmlString }}>
-         </div>;
-}*/
-
 const teamsDefaultTheme = require("../../common/TeamsDefaultTheme.json");
 const teamsDarkTheme = require("../../common/TeamsDarkTheme.json");
 const teamsContrastTheme = require("../../common/TeamsContrastTheme.json");
